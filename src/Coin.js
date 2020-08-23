@@ -11,7 +11,7 @@ class Coin extends Component {
   render() {
     return (
       <div>
-        <img src={head} alt="coin" class="coin-img" />
+        <img src={head} alt="coin" className="coin-img" />
       </div>
     );
   }
