@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import head from "./img/head.jpg";
-import tail from "./img/tail.jpg";
 import "./coin.css";
 
 class Coin extends Component {
@@ -10,8 +8,8 @@ class Coin extends Component {
 
   render() {
     return (
-      <div>
-        <img src={head} alt="coin" className="coin-img" />
+      <div className="coin">
+        <img src={this.props.info.imgSrc} alt={this.props.info.side} />
       </div>
     );
   }
